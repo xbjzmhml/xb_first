@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1858F0361F1F31150024D02C /* UILabel+ExpandFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F0351F1F31150024D02C /* UILabel+ExpandFont.m */; };
 		18E729721CDCA32900353B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E729711CDCA32900353B87 /* main.m */; };
 		18E729751CDCA32900353B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E729741CDCA32900353B87 /* AppDelegate.m */; };
 		18E729781CDCA32900353B87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E729771CDCA32900353B87 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1858F0341F1F31150024D02C /* UILabel+ExpandFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ExpandFont.h"; sourceTree = "<group>"; };
+		1858F0351F1F31150024D02C /* UILabel+ExpandFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ExpandFont.m"; sourceTree = "<group>"; };
 		18E7296D1CDCA32900353B87 /* xb_first_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xb_first_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E729711CDCA32900353B87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E729731CDCA32900353B87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		18E7296F1CDCA32900353B87 /* xb_first_ */ = {
 			isa = PBXGroup;
 			children = (
+				1858F0341F1F31150024D02C /* UILabel+ExpandFont.h */,
+				1858F0351F1F31150024D02C /* UILabel+ExpandFont.m */,
 				18E729731CDCA32900353B87 /* AppDelegate.h */,
 				18E729741CDCA32900353B87 /* AppDelegate.m */,
 				18E729761CDCA32900353B87 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				18E729781CDCA32900353B87 /* ViewController.m in Sources */,
 				18E729751CDCA32900353B87 /* AppDelegate.m in Sources */,
 				18E729721CDCA32900353B87 /* main.m in Sources */,
+				1858F0361F1F31150024D02C /* UILabel+ExpandFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				18E7299C1CDCA32900353B87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E7299D1CDCA32900353B87 /* Build configuration list for PBXNativeTarget "xb_first_Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				18E7299F1CDCA32900353B87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E729A01CDCA32900353B87 /* Build configuration list for PBXNativeTarget "xb_first_UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				18E729A21CDCA32900353B87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

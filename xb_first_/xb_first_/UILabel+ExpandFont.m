@@ -74,4 +74,30 @@
         return self;
     };
 }
+-(void)speColorText:(NSString *)str AndCocor:(UIColor *)color AndFont:(UIFont *)Font{
+    if (!str) {
+        return;
+    }
+    if (str.length<1) {
+        return;
+    }
+    NSArray  *array = [self.text componentsSeparatedByString:str];
+    NSLog(@"%@",array);
+    
+    NSDictionary *attributes = @{NSForegroundColorAttributeName:color,NSFontAttributeName:Font};
+    NSAttributedString *midStr=[[NSAttributedString alloc]initWithString:str attributes:attributes];
+    
+    NSMutableAttributedString *mutAttribute=[[NSMutableAttributedString alloc]initWithString:array[0]];
+    if (array.count==1) {
+        ;
+    }else{
+        for (int i=1; i<array.count; i++) {
+            [mutAttribute appendAttributedString:midStr];
+            [mutAttribute appendAttributedString:[[NSAttributedString alloc]initWithString:array[i]]];
+        }
+    }
+    
+    self.attributedText=mutAttribute;
+    
+}
 @end

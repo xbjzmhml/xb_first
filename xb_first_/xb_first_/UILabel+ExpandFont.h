@@ -12,4 +12,6 @@
 
 - (UILabel *(^)(NSString *str,UIColor *color,CGFloat size))setupmoreColorFont;
 -(BOOL)moreColorFont:(NSArray *)array;
+
+-(void)speColorText:(NSString *)str AndCocor:(UIColor *)color AndFont:(UIFont *)Font;
 @end
